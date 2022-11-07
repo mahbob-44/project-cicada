@@ -1,18 +1,4 @@
-#include<bits/stdc++.h>
-#define loop(n) for(int i=0;i<n;i++)
-#define lop (m) for(int j=0;j<m;j++)
-using namespace std;
 
-class treenode{
-public:
-	int data;
-	treenode*left;
-	treenode* right;
-	treenode(int val){
-		this->data=val;
-		this->left=NULL;
-		this->right=NULL;
-	}
 };
 
 void preorder(treenode*root, string& chk){
